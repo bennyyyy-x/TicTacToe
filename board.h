@@ -10,7 +10,7 @@
 
 class board {
 private:
-    int table[3][3]; // 0 = empty, 1 = player1, 2 = player2
+    int table[3][3]{}; // 0 = empty, 1 = player1, 2 = player2
 public:
     board();
     bool update(int player, int x, int y);

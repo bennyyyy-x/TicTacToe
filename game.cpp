@@ -100,14 +100,14 @@ void game::display_result(sf::RenderWindow *window) {
         window->draw(sprite);
         return;
     }
-    if (tictactoe.check_horizontal() != -1) {
+    else if (tictactoe.check_horizontal() != -1) {
         texture.loadFromFile("../images/horizontal.png");
         texture.setSmooth(true);
         sprite.setTexture(texture);
         sprite.setPosition(CORNER_X - 15, CORNER_Y + 48 + tictactoe.check_horizontal() * SPACE);
         window->draw(sprite);
     }
-    if (tictactoe.check_vertical() != -1) {
+    else if (tictactoe.check_vertical() != -1) {
         texture.loadFromFile("../images/vertical.png");
         texture.setSmooth(true);
         sprite.setTexture(texture);
