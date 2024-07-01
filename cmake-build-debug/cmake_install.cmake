@@ -1,4 +1,4 @@
-# Install script for directory: /Users/bennyxu/Desktop/tictactoe
+# Install script for directory: /Users/bennyxu/Desktop/Projects/tictactoe
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/bennyxu/Desktop/tictactoe/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/bennyxu/Desktop/Projects/tictactoe/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
