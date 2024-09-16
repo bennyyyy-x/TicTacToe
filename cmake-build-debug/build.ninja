@@ -51,21 +51,21 @@ build cmake_object_order_depends_target_tictactoe: phony || CMakeFiles/tictactoe
 
 build CMakeFiles/tictactoe.dir/main.cpp.o: CXX_COMPILER__tictactoe_unscanned_Debug /Users/bennyxu/Desktop/Projects/tictactoe/main.cpp || cmake_object_order_depends_target_tictactoe
   DEP_FILE = CMakeFiles/tictactoe.dir/main.cpp.o.d
-  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -std=c++11 -g -arch arm64 -fcolor-diagnostics
   INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
   OBJECT_DIR = CMakeFiles/tictactoe.dir
   OBJECT_FILE_DIR = CMakeFiles/tictactoe.dir
 
-build CMakeFiles/tictactoe.dir/src/board.cpp.o: CXX_COMPILER__tictactoe_unscanned_Debug /Users/bennyxu/Desktop/Projects/tictactoe/src/board.cpp || cmake_object_order_depends_target_tictactoe
-  DEP_FILE = CMakeFiles/tictactoe.dir/src/board.cpp.o.d
-  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+build CMakeFiles/tictactoe.dir/board.cpp.o: CXX_COMPILER__tictactoe_unscanned_Debug /Users/bennyxu/Desktop/Projects/tictactoe/board.cpp || cmake_object_order_depends_target_tictactoe
+  DEP_FILE = CMakeFiles/tictactoe.dir/board.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -fcolor-diagnostics
   INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
   OBJECT_DIR = CMakeFiles/tictactoe.dir
-  OBJECT_FILE_DIR = CMakeFiles/tictactoe.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/tictactoe.dir
 
 build CMakeFiles/tictactoe.dir/game.cpp.o: CXX_COMPILER__tictactoe_unscanned_Debug /Users/bennyxu/Desktop/Projects/tictactoe/game.cpp || cmake_object_order_depends_target_tictactoe
   DEP_FILE = CMakeFiles/tictactoe.dir/game.cpp.o.d
-  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -std=c++11 -g -arch arm64 -fcolor-diagnostics
   INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
   OBJECT_DIR = CMakeFiles/tictactoe.dir
   OBJECT_FILE_DIR = CMakeFiles/tictactoe.dir
@@ -78,8 +78,8 @@ build CMakeFiles/tictactoe.dir/game.cpp.o: CXX_COMPILER__tictactoe_unscanned_Deb
 #############################################
 # Link the executable tictactoe
 
-build tictactoe: CXX_EXECUTABLE_LINKER__tictactoe_Debug CMakeFiles/tictactoe.dir/main.cpp.o CMakeFiles/tictactoe.dir/src/board.cpp.o CMakeFiles/tictactoe.dir/game.cpp.o | /opt/homebrew/lib/libsfml-graphics.2.6.1.dylib /opt/homebrew/lib/libsfml-audio.2.6.1.dylib /opt/homebrew/lib/libsfml-network.2.6.1.dylib /opt/homebrew/lib/libsfml-window.2.6.1.dylib /opt/homebrew/lib/libsfml-system.2.6.1.dylib
-  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+build tictactoe: CXX_EXECUTABLE_LINKER__tictactoe_Debug CMakeFiles/tictactoe.dir/main.cpp.o CMakeFiles/tictactoe.dir/board.cpp.o CMakeFiles/tictactoe.dir/game.cpp.o | /opt/homebrew/lib/libsfml-graphics.2.6.1.dylib /opt/homebrew/lib/libsfml-audio.2.6.1.dylib /opt/homebrew/lib/libsfml-network.2.6.1.dylib /opt/homebrew/lib/libsfml-window.2.6.1.dylib /opt/homebrew/lib/libsfml-system.2.6.1.dylib
+  FLAGS = -std=c++11 -g -arch arm64
   LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/lib  /opt/homebrew/lib/libsfml-graphics.2.6.1.dylib  /opt/homebrew/lib/libsfml-audio.2.6.1.dylib  /opt/homebrew/lib/libsfml-network.2.6.1.dylib  /opt/homebrew/lib/libsfml-window.2.6.1.dylib  /opt/homebrew/lib/libsfml-system.2.6.1.dylib
   OBJECT_DIR = CMakeFiles/tictactoe.dir
   POST_BUILD = :
