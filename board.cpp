@@ -2,7 +2,7 @@
 // Created by Benny Xu on 2024-01-14.
 //
 
-#include "board.h"
+#include "board.hpp"
 
 board::board() {
     for (auto & i : table) {

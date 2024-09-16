@@ -2,11 +2,11 @@
 // Created by Benny Xu on 2024-01-14.
 //
 
-#ifndef TICTACTOE_GAME_H
-#define TICTACTOE_GAME_H
+#ifndef TICTACTOE_GAME_HPP
+#define TICTACTOE_GAME_HPP
 
 #include <SFML/Graphics.hpp>
-#include "board.h"
+#include "board.hpp"
 
 class game {
 private:
@@ -25,4 +25,4 @@ public:
 };
 
 
-#endif //TICTACTOE_GAME_H
+#endif //TICTACTOE_GAME_HPP

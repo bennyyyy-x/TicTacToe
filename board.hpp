@@ -2,8 +2,8 @@
 // Created by Benny Xu on 2024-01-14.
 //
 
-#ifndef TICTACTOE_BOARD_H
-#define TICTACTOE_BOARD_H
+#ifndef TICTACTOE_BOARD_HPP
+#define TICTACTOE_BOARD_HPP
 
 #include <iostream>
 #include <SFML/Graphics.hpp>
@@ -24,4 +24,4 @@ public:
 };
 
 
-#endif //TICTACTOE_BOARD_H
+#endif //TICTACTOE_BOARD_HPP

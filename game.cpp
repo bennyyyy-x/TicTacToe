@@ -2,7 +2,7 @@
 // Created by Benny Xu on 2024-01-14.
 //
 
-#include "game.h"
+#include "game.hpp"
 #include <iostream>
 
 #define CORNER_X 90

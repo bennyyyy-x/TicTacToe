@@ -1,6 +1,6 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
-#include "game.h"
+#include "game.hpp"
 
 int main() {
     sf::RenderWindow window(sf::VideoMode(600, 600), "TicTacToe", sf::Style::Default);

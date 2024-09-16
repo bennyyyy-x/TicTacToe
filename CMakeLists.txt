@@ -5,9 +5,9 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 set(SOURCE_FILES main.cpp
         board.cpp
-        board.h
+        board.hpp
         game.cpp
-        game.h
+        game.hpp
 )
 add_executable(tictactoe ${SOURCE_FILES})
 include_directories(/usr/local/include)
